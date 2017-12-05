@@ -1,2 +1,26 @@
 # TimeControl
-KSP-like time warp for Factorio using keybindings, from 0.25x to 64x speed (if your game can handle it).  
+KSP-like time warp for Factorio using keybindings, from 0.25x to 64x speed (if your game can handle it).  Inspired
+by [TimeTools](https://mods.factorio.com/mods/binbinhfr/TimeTools), but using keyboard shortcuts rather than the UI
+display and intentionally ignoring all of the other things that mod adds.
+  
+Time warp affects all players.  TimeControl only allows players with console access to change the game speed (i.e. 
+those who could just type `/c game.speed=2` anyways, but TimeControl won't disable achievements.)
+
+All players will be notified via console message when the game speed is changed, who changed it and the new speed. 
+
+## Default Keybindings
+
+Factorio's Controls UI doesn't show various keyboard keys correctly (they'll just read as "KEY61", etc.).  Here's the 
+actual keybindings in use by default.  Like all mods, you can change these in **Options -> Controls -> Mods**
+
+ - `-` Halves the current game speed, with a minimum speed of 0.25x.
+ - `+` Doubles the current game speed, with a maximum speed of 64x. 
+ - `BACKSPACE` - Resets game speed to normal.
+ 
+These all reference the keys on the top row of a US keyboard layout, *not* those on the numpad.
+ 
+## TODO
+
+Add some sort of persistent indicator for when timewarp is active.
+
+Make minimum and maximum timewarp amounts configurable.
