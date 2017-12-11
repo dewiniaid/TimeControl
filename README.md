@@ -21,6 +21,10 @@ These all reference the keys on the top row of a US keyboard layout, *not* those
  
 ## TODO
 
-Add some sort of persistent indicator for when timewarp is active.
-
 Make minimum and maximum timewarp amounts configurable.
+
+## Changelog
+
+### 0.1.1 (2017-12-11)
+ 
+* Add a simple indicator in the upper-right when timewarp is active.
