@@ -27,4 +27,4 @@ Make minimum and maximum timewarp amounts configurable.
 
 ### 0.1.1 (2017-12-11)
  
-* Add a simple indicator in the upper-right when timewarp is active.
+* Add a simple indicator in the upper-left when timewarp is active.
