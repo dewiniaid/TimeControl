@@ -25,6 +25,10 @@ Make minimum and maximum timewarp amounts configurable.
 
 ## Changelog
 
+### 0.1.2 (2017-12-13)
+* Update for Factorio 0.16
+* Made the time indicator display configurable: It can now be always shown, always hidden, or only shown while warping.
+
 ### 0.1.1 (2017-12-11)
  
 * Add a simple indicator in the upper-left when timewarp is active.
