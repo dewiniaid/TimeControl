@@ -25,6 +25,9 @@ Make minimum and maximum timewarp amounts configurable.
 
 ## Changelog
 
+### 0.1.3 (2017-12-13)
+* Fix crash on new games or players joining multiplayer games.
+
 ### 0.1.2 (2017-12-13)
 * Update for Factorio 0.16
 * Made the time indicator display configurable: It can now be always shown, always hidden, or only shown while warping.

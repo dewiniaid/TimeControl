@@ -94,7 +94,7 @@ script.on_load(on_load)
 script.on_configuration_changed(on_init)
 script.on_event(defines.events.on_player_created, function(event)
     update_preferences(event.player_index)
-    gui_update(event.player_index)
+    update_gui(event.player_index)
 end)
 script.on_event(defines.events.on_player_removed, function(event)
     display_preferences[event.player_index] = nil
