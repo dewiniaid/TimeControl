@@ -25,6 +25,10 @@ Make minimum and maximum timewarp amounts configurable.
 
 ## Changelog
 
+### 0.1.4 (2018-10-08)
+* Added German translations, courtesy of mrbesen and SuperSandro2000
+* Fix a cosmetic localization bug in mod settings.
+
 ### 0.1.3 (2017-12-13)
 * Fix crash on new games or players joining multiplayer games.
 
@@ -33,5 +37,4 @@ Make minimum and maximum timewarp amounts configurable.
 * Made the time indicator display configurable: It can now be always shown, always hidden, or only shown while warping.
 
 ### 0.1.1 (2017-12-11)
- 
 * Add a simple indicator in the upper-left when timewarp is active.
