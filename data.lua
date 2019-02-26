@@ -10,14 +10,14 @@ data:extend({
     {
         type = "custom-input",
         name = "timecontrol_faster",
-        key_sequence = "KEY62",
+        key_sequence = "EQUALS",
         order = 'a-a',
         -- consuming = "all",
     },
     {
         type = "custom-input",
         name = "timecontrol_slower",
-        key_sequence = "KEY61",
+        key_sequence = "MINUS",
         order = 'a-b',
         -- consuming = "all"
     },

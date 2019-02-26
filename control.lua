@@ -29,16 +29,16 @@ local function update_gui(player_index, visible)
             caption = display_caption,
             style = display_style,
         }
-        top.TimeControlSpeedometer.style.visible = visible
+        top.TimeControlSpeedometer.visible = visible
         return
     end
 
     if visible then
         ctl.caption = display_caption
         ctl.style = display_style
-        ctl.style.visible = true
+        ctl.visible = true
     else
-        ctl.style.visible = false
+        ctl.visible = false
     end
 end
 
@@ -112,9 +112,20 @@ end)
 
 local function warp_time(event, multiplier)
     local player = game.players[event.player_index]
-    if not (player and player.permission_group and player.permission_group.allows_action(defines.server_command)) then
+
+    -- Permissions check
+    if not (player.admin or settings.global['TimeControl-access'] == 'everyone') then
         return
     end
+--    -- Experimental; FIXME
+--    if not (
+--            player and player.permission_group
+----            and player.permission_group.allows_action(defines.input_action.admin_action)
+----            and player.permission_group.allows_action(defines.input_action.write_to_console)
+--            and true
+--    ) then
+--        return
+--    end
 
     local msg = "timecontrol.speed-changed"
 
