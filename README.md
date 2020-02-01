@@ -24,8 +24,11 @@ Make minimum and maximum timewarp amounts configurable.
 
 ## Changelog
 
+### 0.1.6 (2020-01-31)
+* **Update for Factorio 0.18**
+
 ### 0.1.5 (2018-02-26)
-* Update for Factorio 0.17
+* **Update for Factorio 0.17**
 * Removed the old permission check for timewarp, which never actually worked.  You can now choose between allowing everyone or just admins to timewarp in map settings.
 
 ### 0.1.4 (2018-10-08)
@@ -36,7 +39,7 @@ Make minimum and maximum timewarp amounts configurable.
 * Fix crash on new games or players joining multiplayer games.
 
 ### 0.1.2 (2017-12-13)
-* Update for Factorio 0.16
+* **Update for Factorio 0.16**
 * Made the time indicator display configurable: It can now be always shown, always hidden, or only shown while warping.
 
 ### 0.1.1 (2017-12-11)
