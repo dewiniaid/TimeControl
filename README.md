@@ -2,27 +2,31 @@
 KSP-like time warp for Factorio using keybindings, from 0.25x to 64x speed (if your game can handle it).  Inspired
 by [TimeTools](https://mods.factorio.com/mods/binbinhfr/TimeTools), but using keyboard shortcuts rather than the UI
 display and intentionally ignoring all of the other things that mod adds.
-  
+
 Time warp affects all players.  In multiplayer games, only admins are allowed to change time warp settings by default.
 This can be changed in Mod Settings.
 
-All players will be notified via console message when the game speed is changed, who changed it and the new speed. 
+All players will be notified via console message when the game speed is changed, who changed it and the new speed.
 
 ## Default Keybindings
 
 Like all mods, you can change these in **Options -> Controls -> Mods**
 
  - `-` Halves the current game speed, with a minimum speed of 0.25x.
- - `+` Doubles the current game speed, with a maximum speed of 64x. 
+ - `+` Doubles the current game speed, with a maximum speed of 64x.
  - `BACKSPACE` - Resets game speed to normal.
- 
-These all reference the keys on the top row of a US keyboard layout, *not* those on the numpad.
- 
-## TODO
 
-Make minimum and maximum timewarp amounts configurable.
+These all reference the keys on the top row of a US keyboard layout, *not* those on the numpad.
 
 ## Changelog
+
+### 0.2.0 (2024-01-04)
+* **Updates for Factorio 0.18**
+* Updated translations
+* New configuration option for the minimum speed
+* New configuration option for the maximum speed
+* New configuration option for the minimum speed multiplier
+* New configuration option for the maximum speed multiplier
 
 ### 0.1.6 (2020-01-31)
 * **Update for Factorio 0.18**
